@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EjercicioClase"
+             x:Class="EjercicioClase.MainPage">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="INGRESO DE MEDICINAS"/>
+            <Entry x:Name="entNombre" Placeholder="Ingrese Nombre:" />
+            <Entry x:Name="entMarca" Placeholder="Ingrese Marca:" />
+            <Button x:Name="btnIngreso" Text="Ingresar" Clicked="btnIngreso_Clicked" />
+            <ListView x:Name="lsvEstudiantes" />
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
