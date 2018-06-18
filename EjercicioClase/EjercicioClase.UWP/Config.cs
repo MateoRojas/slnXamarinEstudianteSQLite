@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using SQLite.Net.Interop;
 using SQLite.Net.Platform.WinRT;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(EjercicioClase.UWP.Config))]
 namespace EjercicioClase.UWP
 {
     public class Config : IConfig
